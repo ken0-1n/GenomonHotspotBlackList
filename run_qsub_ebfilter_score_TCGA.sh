@@ -1,0 +1,35 @@
+mkdir -p log
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_ACC.txt  output/ACC  ACC  
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_BLCA.txt output/BLCA BLCA 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_BRCA.txt output/BRCA BRCA 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_CESC.txt output/CESC CESC 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_CHOL.txt output/CHOL CHOL 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_COAD.txt output/COAD COAD 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_DLBC.txt output/DLBC DLBC 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_ESCA.txt output/ESCA ESCA 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_GBM.txt  output/GBM  GBM  
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_HNSC.txt output/HNSC HNSC 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_KICH.txt output/KICH KICH 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_KIRC.txt output/KIRC KIRC 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_KIRP.txt output/KIRP KIRP 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_LAML.txt output/LAML LAML 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_LGG.txt  output/LGG  LGG  
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_LIHC.txt output/LIHC LIHC 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_LUAD.txt output/LUAD LUAD 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_LUSC.txt output/LUSC LUSC 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_MESO.txt output/MESO MESO 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_OV.txt   output/OV   OV   
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_PAAD.txt output/PAAD PAAD 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_PCPG.txt output/PCPG PCPG 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_PRAD.txt output/PRAD PRAD 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_READ.txt output/READ READ 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_SARC.txt output/SARC SARC 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_SKCM.txt output/SKCM SKCM 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_STAD.txt output/STAD STAD 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_TGCT.txt output/TGCT TGCT 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_THCA.txt output/THCA THCA 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_THYM.txt output/THYM THYM 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_UCEC.txt output/UCEC UCEC 
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_UCS.txt  output/UCS  UCS  
+qsub qsub_ebfilter_score.sh 10 input/hotspot.anno input/tumor.bam normal_panel/list_normal_sample_UVM.txt  output/UVM  UVM  
+

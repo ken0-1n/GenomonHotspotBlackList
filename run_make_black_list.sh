@@ -1,0 +1,35 @@
+python make_new_hotspot_position.py output/ACC/ACC_output.anno   > output/ACC/ACC.black_list
+python make_new_hotspot_position.py output/BLCA/BLCA_output.anno > output/BLCA/BLCA.black_list
+python make_new_hotspot_position.py output/BRCA/BRCA_output.anno > output/BRCA/BRCA.black_list
+python make_new_hotspot_position.py output/CESC/CESC_output.anno > output/CESC/CESC.black_list
+python make_new_hotspot_position.py output/CHOL/CHOL_output.anno > output/CHOL/CHOL.black_list
+python make_new_hotspot_position.py output/COAD/COAD_output.anno > output/COAD/COAD.black_list
+python make_new_hotspot_position.py output/DLBC/DLBC_output.anno > output/DLBC/DLBC.black_list
+python make_new_hotspot_position.py output/ESCA/ESCA_output.anno > output/ESCA/ESCA.black_list
+python make_new_hotspot_position.py output/GBM/GBM_output.anno   > output/GBM/GBM.black_list
+python make_new_hotspot_position.py output/HNSC/HNSC_output.anno > output/HNSC/HNSC.black_list
+python make_new_hotspot_position.py output/KICH/KICH_output.anno > output/KICH/KICH.black_list
+python make_new_hotspot_position.py output/KIRC/KIRC_output.anno > output/KIRC/KIRC.black_list
+python make_new_hotspot_position.py output/KIRP/KIRP_output.anno > output/KIRP/KIRP.black_list
+python make_new_hotspot_position.py output/LAML/LAML_output.anno > output/LAML/LAML.black_list
+python make_new_hotspot_position.py output/LGG/LGG_output.anno   > output/LGG/LGG.black_list
+python make_new_hotspot_position.py output/LIHC/LIHC_output.anno > output/LIHC/LIHC.black_list
+python make_new_hotspot_position.py output/LUAD/LUAD_output.anno > output/LUAD/LUAD.black_list
+python make_new_hotspot_position.py output/LUSC/LUSC_output.anno > output/LUSC/LUSC.black_list
+python make_new_hotspot_position.py output/MESO/MESO_output.anno > output/MESO/MESO.black_list
+python make_new_hotspot_position.py output/OV/OV_output.anno     > output/OV/OV.black_list
+python make_new_hotspot_position.py output/PAAD/PAAD_output.anno > output/PAAD/PAAD.black_list
+python make_new_hotspot_position.py output/PCPG/PCPG_output.anno > output/PCPG/PCPG.black_list
+python make_new_hotspot_position.py output/PRAD/PRAD_output.anno > output/PRAD/PRAD.black_list
+python make_new_hotspot_position.py output/READ/READ_output.anno > output/READ/READ.black_list
+python make_new_hotspot_position.py output/SARC/SARC_output.anno > output/SARC/SARC.black_list
+python make_new_hotspot_position.py output/SKCM/SKCM_output.anno > output/SKCM/SKCM.black_list
+python make_new_hotspot_position.py output/STAD/STAD_output.anno > output/STAD/STAD.black_list
+python make_new_hotspot_position.py output/TGCT/TGCT_output.anno > output/TGCT/TGCT.black_list
+python make_new_hotspot_position.py output/THCA/THCA_output.anno > output/THCA/THCA.black_list
+python make_new_hotspot_position.py output/THYM/THYM_output.anno > output/THYM/THYM.black_list
+python make_new_hotspot_position.py output/UCEC/UCEC_output.anno > output/UCEC/UCEC.black_list
+python make_new_hotspot_position.py output/UCS/UCS_output.anno   > output/UCS/UCS.black_list
+python make_new_hotspot_position.py output/UVM/UVM_output.anno   > output/UVM/UVM.black_list
+cat output/*/*black_list | sort -u > output/TCGA_all.black_list
+
