@@ -16,7 +16,7 @@ bash make_list_normal_TCGA.sh
 ```
 2. make your target mutations file (file format is tab separated anno format coordinates "chr \t start \t end \t ref \t alt ").
 ```
-awk -F"   " '{print $1"\t"$2"\t"$3"\t"$4"\t"$5}' ../CancerHotspotFileCreator/results/refGene_hotspot.txt > input/hotspot.anno 
+awk -F"   " '{print $1"\t"$2"\t"$3"\t"$4"\t"$5}' ../GenomonHotspotDatabase/results/refGene_hotspot.txt > input/hotspot.anno 
 ```
 3. read counts for TCGA normal bam.
 ```
