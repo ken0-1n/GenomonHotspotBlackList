@@ -28,6 +28,6 @@ bash run_make_black_list.sh
 ```
 5. filter hotspot error position
 ```
-python make_filtered_blacklist_hotspot_position.py ../CancerHotspotFileCreator/results/refGene_hotspot.txt  > ../CancerHotspotFileCreator/results/refGene_hotspot_filtered_blacklist.txt
+python make_filtered_blacklist_hotspot_position.py ../GenomonHotspotDatabase/output/refGene_hotspot.txt > ../GenomonHotspotDatabase/output/refGene_hotspot_filtered_blacklist.txt
 ```
 
